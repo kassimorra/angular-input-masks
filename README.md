@@ -27,6 +27,15 @@ With npm:
 npm install --save angular-input-masks
 ```
 
+Installing without npm and bower:
+
+1) https://github.com/assisrafael/bower-angular-input-masks
+2) Download the version that you will use. (Ex: angular-input-masks-standalone.min.js)
+3) Create a file referente in javascript :
+Ex: <script type="text/javascript"  src="angular-input-masks-standalone.min.js">
+4) Include it as a module in your angular app angular.module('app', ['ui.utils.masks']);
+
+
 ## Configuration
 
 ### With bower or npm (without browserify):
